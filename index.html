@@ -19,13 +19,78 @@
 
         <!-- Conteudo principal do Site -->
         <main>
+            <!-- section de introdução -->
             <!-- separa o conteúdo em seções -->
             <section>
                 <!-- fala um pouco sobre o que é o Quiz-->
                 <h2>Sobre o Quiz</h2>
-                <p>Este quis foi desenvolvido para testar seu conhecimentos em programação, como linguagens de programação, conceitos básico e mais</p>
-                <p>Você encontrara diferentes tipos de perguntas, incluindo múltipla escolha, texto e perguntas de data, Desafie-se com este quis!</p>
-                <p>Você poderá encontrar alguns acrônimos como HTML e CSS, que são comumente usados em questões relacionadas ao desenvolvimento web</p>
+                <!-- aqui eu utilizei o strong para destacar e em para deixar palavras em italicos -->
+                <p>Este quis foi desenvolvido para testar seu conhecimentos em <strong>programação</strong>, como <em>linguagens de programação</em>, <em>conceitos básico</em> e mais</p>
+                <!-- aqui utilizei o comando br que pula a linha. e utilizei o strong para destacar -->
+                <p>Você encontrara diferentes tipos de perguntas, incluindo múltipla escolha, texto e perguntas de data, <br><strong>Desafie-se com este quis!</strong> </p>
+                <!-- abbr serve para adicionar um titulo que sera exibido ao passar um mouse por cima-->
+                <p>Você poderá encontrar alguns acrônimos como <abbr title="Linguagem de Marcação de Hipertexto">HTML</abbr> e <abbr title="Folhas de Estilo em Cascata">CSS</abbr>, que são comumente usados em questões relacionadas ao desenvolvimento web</p>
+            </section>
+
+            <!-- Pergunta de multipla escolha-->
+            <!-- Input de multipla escolha -->
+            <section>
+            <!-- Pergunta 1 -->
+            <h2>Pergunta 1: Qual Linguagem é usada para estruturar páginas Web?</h2>
+
+            <!-- criação do form para cria uma área interativa onde o usuario ira colocar dados-->
+            <form>
+                <!-- criação de um input e exibição da resposta-->
+                <input type="radio" value="Python" id="p1a" name="pergunta1">
+                <label for="p1a">Python</label><br>
+
+                <input type="radio" value="HTML" id="p1b" name="pergunta1">
+                <label for="p1b">HTML</label><br>
+
+                <input type="radio" value="JavaScript" id="p1c" name="pergunta1">
+                <label for="p1c">JavaScript</label><br>
+
+                <input type="radio" value="Ruby" id="p1d" name="pergunta1">
+                <label for="p1d">Ruby</label><br> <!-- Lembrar de colocar o texto no meio -->
+                <!-- no tipo a gente esta falando que a seleção é com bolinhas -->
+                <!-- no valor a gente esta falando o nome da resposta -->
+                <!-- no id a gente coloca um indentificador-->
+                <!-- o name a deixa qual pergunta que é para ter somente 1 resposta-->
+            </form>
+
+            </section>
+
+            <!-- Pergunta de Texto -->
+            <!-- Input de texto-->
+            <section>
+            <!-- Pergunta 2 -->
+            <h2>Pergunta 2: Na URL https://google.com o techo  "google.com" é o _____</h2>
+
+            <form>
+                <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta...">
+                <!-- a gente utiliza o tipo texto, porque a entrada é um texto -->
+                <!-- no id colocamos p2 para depois identificarmos-->
+                <!-- placeholder é um texto que fica dentro de uma caixa de texto antes do usuário digitar-->
+            </form>
+
+            </section>
+
+            <!-- Pergunta de Senha -->
+            <!-- Input de senha-->
+            <section>
+
+            <!-- Pergunta 3-->
+            <h2>Pergunta 3: Digite uma senha forte</h2>
+
+            <form>
+            <input type="password" id="p3" name="pergunta3" placeholder="Digite uma senha...">
+            <!-- quando utizamos o input do tipo senha, toda letra digitada fica como *** -->
+            </form>
+
+            </section>
+
+            <section>
+            
             </section>
 
         </main>
