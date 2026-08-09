@@ -89,8 +89,154 @@
 
             </section>
 
+            <!-- Pergunta de Data -->
+            <!-- Input de Data -->
             <section>
-            
+                <h2>Pergunta 4: Em que ano HTML lançou sua primeira versão?</h2>
+
+                <form>
+                    <input type="date" id="p4" name="pergunta4">
+                </form>
+
+            </section>
+
+            <!-- Pergunta de Multipla Seleção -->
+            <!-- Input de checkbox-->
+            <section>
+                <h2>Pergunta 5: Quais dessas tecnologias são consideradas linguagens de programação</h2>
+
+                <form>
+                    <input type="checkbox" id="p5a" name="pergunta5" value="JavaScript">
+                    <label for="p5a">JavaScript</label><br>
+
+                    <input type="checkbox" id="p5b" name="pergunta5" value="HTML">
+                    <label for="p5b">HTML</label><br>
+
+                    <input type="checkbox" id="p5c" name="pergunta5" value="Java">
+                    <label for="p5c">Java</label><br>
+
+                    <input type="checkbox" id="p5d" name="pergunta5" value="CSS">
+                    <label for="p5d">CSS</label><br>
+
+                </form>
+                <!-- A diferença entre checkbox e radio, o radio pode escolher somente 1, enquanto o checkbox pode escolher varias-->
+
+            </section>
+
+            <!-- Pergunta de Upload -->
+            <!-- Input File-->
+            <section>
+                <!-- Pergunta -->
+                <h2>Pergunta 6: Faça o upload de um arquivo contendo código HTML</h2>
+
+                <!-- Entrada de dados-->
+                <form>
+                    <input type="file" id="p6" name="pergunta6">
+                </form>
+                <!-- o tipo file posibilita voce fazer o upload de uma arquivo-->
+
+            </section>
+
+            <!-- Pergunta de Menu Suspenso -->
+            <!-- Section e Option-->
+            <section>
+                <!-- Pergunta -->
+                <h2>Pergunta 7: Selecione o atributo input que define o seu tipo:</h2>
+
+                <!-- Entrada de Dados -->
+                <form >
+                    <!-- comando para criação da caixa de seleção-->
+                    <select name="pergunta7" id="p7">
+                        <!-- Opções para seleção-->
+                        <option value="id">ID</option>
+                        <option value="type">TYPE</option>
+                        <option value="placeholder">PLACEHOLDER</option>
+                    </select>
+                </form>
+
+            </section>
+
+            <!-- Pergunta de Imagem -->
+            <!-- TAG IMG -->
+            <section>
+                <h2>Pergunta 8: Qual linguagem de programação utiliza esta logotipo abaixo:</h2>
+
+                <figure>
+                    <img src="Imagens/java.png" alt="logotipo de uma linguagem de programação"><br>
+                    <figcaption>Figura 1: logotipo de uma linguagem de programação</figcaption> <!-- usada para colocar uma descrição na imagem, igual questao de vestibular-->
+                </figure>
+
+                <!-- Entrada da resposta-->
+                <input type="text" id="p8" name="pergunta8" placeholder="Digite sua resposta...">
+            </section>
+
+            <!-- Tabela de Pontuação-->
+            <section>
+                <h2>Tabela de Pontuação</h2>
+
+                <!-- criação da tabela -->
+                 <table border="2">
+
+                    <!-- cabeçario da tabela -->
+                    <thead>
+                        <tr><!-- tr cria uma linha -->
+                            <td>Pontuação</td><!-- cria uma coluna -->
+
+                            <td>Avaliação</td>
+                        </tr>
+                    </thead>
+
+                    <!-- corpo da tabela -->
+                    <tbody>
+                        <tr>
+                            <td>0-2</td>
+                            <td>Tente na Proxima</td>
+                        </tr>
+
+                        <tr>
+                            <td>3-4</td>
+                            <td>Media</td>
+                        </tr>
+
+                        <tr>
+                            <td>5-7</td>
+                            <td>Bom!</td>
+                        </tr>
+
+                        <tr>
+                            <td>8</td>
+                            <td>Perfeito!</td>
+                        </tr>
+                    </tbody>
+
+                    <!-- rodape da tabela-->
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Boa Sorte na Proxima!</td>
+                        </tr>
+                    </tfoot>
+                 </table>
+                 
+            </section>
+
+            <!-- Lista de Respostas-->
+            <section>
+                <h2>Verifique as Respostas</h2>
+
+                <details>
+                    <summary>Clique para Exibir as Respostas</summary>
+
+                    <ol>
+                        <li>HTML</li>
+                        <li>Dominio</li>
+                        <li>Para fazer uma senha forte, use pelo menos 14 caracteres misturando letras maiúsculas e minúsculas, números e símbolos especiais. </li>
+                        <li>1991</li>
+                        <li>JavaScript e Java</li>
+                        <li>Arquivos que tem extensão HTML</li>
+                        <li>TYPE</li>
+                        <li>Java</li>
+                    </ol>
+                </details>
             </section>
 
         </main>
