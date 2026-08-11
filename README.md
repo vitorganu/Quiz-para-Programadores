@@ -29,7 +29,6 @@ Durante o desenvolvimento, aprendi a utilizar:
 - Conteúdo expansível com `details` e `summary`;
 - Atributos como `id`, `name`, `value`, `type` e `placeholder`.
 
-Este projeto também me ajudou a entender melhor a diferença entre **HTML (estrutura), CSS (aparência) e JavaScript (comportamento)**.
 
 ---
 
@@ -37,7 +36,7 @@ Este projeto também me ajudou a entender melhor a diferença entre **HTML (estr
 
 Em breve, será disponibilizado um vídeo mostrando o projeto funcionando.
 
-[![Assistir demonstração](https://img.shields.io/badge/▶️%20Assistir%20demonstração-YouTube-red?style=for-the-badge&logo=youtube)](COLE_O_LINK_DO_VIDEO_AQUI)
+[![Assistir demonstração]([https://img.shields.io/badge/▶️%20Assistir%20demonstração-YouTube-red?style=for-the-badge&logo=youtube](https://youtu.be/hnUwhXbkzdE))]
 
 ---
 
