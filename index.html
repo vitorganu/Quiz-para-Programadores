@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <!-- Tudo que tiver no head sera para indicar indices de metadados, nao entra nem uma parte visual aqui dentro -->
     <head> 
         <!-- diciona um titulo para o site -->
@@ -239,11 +239,35 @@
                 </details>
             </section>
 
+            <!-- Formulario de Feedback-->
+            <!-- Criação de um formulario-->
+            <section>
+                <h2>Nos dê seu Feedback</h2>
+
+                <form >
+                    <fieldset> <!-- cria uma bordar no formulario --> 
+                    <!-- Pega o nome da pessoa -->
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name"><br>
+                    
+                    <!-- Pega o email -->
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+
+                    <!-- comentarios -->
+                    <label for="comentarios">Comentarios:</label><br>
+                    <textarea name="comentarios" id="comentarios" rows="4" cols="30" placeholder="Digite algum comentarios..."></textarea> <br><!-- cria um campo de texto grande que pode ser personalizada com rows e cols-->
+                    <button>Envie seu Feedback</button>
+                    </fieldset>
+                </form>
+            </section>
+
         </main>
 
         <!-- Rodapé -->
         <footer>
-
+            <p>&copy; Quiz de Programadores. Todos os direitos reservados</p>
+            <p>Para mais projetos <a href="https://github.com/vitorganu" target="_blank">CLIQUE AQUI</a></p>
         </footer>
     </body>
 </html>
