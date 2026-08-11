@@ -36,7 +36,7 @@ Durante o desenvolvimento, aprendi a utilizar:
 
 Em breve, será disponibilizado um vídeo mostrando o projeto funcionando.
 
-[![Assistir demonstração]([https://img.shields.io/badge/▶️%20Assistir%20demonstração-YouTube-red?style=for-the-badge&logo=youtube](https://youtu.be/hnUwhXbkzdE))]
+[![Assistir demonstração](https://img.shields.io/badge/▶️%20Assistir%20demonstração-YouTube-red?style=for-the-badge&logo=youtube)](https://youtu.be/hnUwhXbkzdE?si=BMi92XGvPolJmGxW)
 
 ---
 
